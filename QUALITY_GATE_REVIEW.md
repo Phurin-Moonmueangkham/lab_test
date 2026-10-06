@@ -63,4 +63,6 @@ The first implementation snapshot was a runnable Express/SQLite task API with `G
 - TypeScript diagnostics for `src/index.ts` and `test/api.test.ts`: no errors found.
 - Local D1 migration `0001_initial.sql`: applied successfully.
 - Real Wrangler HTTP checks from `curl_test_guide.md`: `200, 200, 201, 200, 200, 400, 409, 404, 204`.
+- Remote Worker deployment: `https://campus-equipment-booking-api.6731503026.workers.dev`.
+- Remote production checks confirmed `GET` equipment/bookings `200`, create `201`, read/update `200`, overlap `409`, and delete `204`.
 - Manual curl cases are recorded in `CURL_EVIDENCE.md`.
